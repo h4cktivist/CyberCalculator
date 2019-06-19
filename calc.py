@@ -36,11 +36,11 @@ elif act == "*":
 	c = a * b
 elif act == "/":
 	c = a / b
-elif act == "%": # Остаток от деления
+elif act == "%":
 	c = a % b
-elif act == "**": # Возведение в степень
+elif act == "**":
 	c = a ** b
-elif act == "//": # Получение целой части от деления
+elif act == "//":
 	c = a // b
 print ("Result: " + str(c))
 print (" ")
@@ -56,5 +56,5 @@ print ("                         .rr    r.             rr           rr         r
 print ("                        rr;                                rr                                     ;rs         ")
 print ("                       r;                                 rr,             r                           rr      ")
 print ("                                                         r                                                    ")
-
+# Created by h4cktivist
 # In support of CYBERPUNK 2077
