@@ -44,17 +44,6 @@ elif act == "//":
 	c = a // b
 print ("Result: " + str(c))
 print (" ")
-print ("                                        r                                                                   ")
-print ("                     :rsrrr           sr                                                                     ")
-print ("                   rrrr.             srr                                                          rs          ")
-print ("                rrrr        s       rr;                                 .;rr  r         rr    rrr             ")
-print ("            rrr;r          rr rrrrrrrrrrrrrrs;    r.    ,rrrr  rrrrrrr;;rrrr rr r;  rr rr:.rr;                ")
-print ("         rrsrrs;rsssrssrrr srrrs srs rrs rrrrrr; rrrrrrrrs    rrr  rrrrsr   rr rrr ;r rrsrr                   ")
-print ("      rrrrrrrrrrrrrrrrrrrrr ;rr rr rrr  rr,r:ss rrsrrrrs:   ,rrrrrs    sr rrr rs rrr rsr ;rrr:                ")
-print ("                           rr.;rrrss   :rs,    rr,    rrrrrr rr       rrrrrs.rr  rr; sr     rrs               ")
-print ("                         .rr    r.             rr           rr         r   .                   ;rs            ")
-print ("                        rr;                                rr                                     ;rs         ")
-print ("                       r;                                 rr,             r                           rr      ")
-print ("                                                         r                                                    ")
+
 # Created by h4cktivist
 # In support of CYBERPUNK 2077
