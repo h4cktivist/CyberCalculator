@@ -1,10 +1,23 @@
 using System;
+using System.Threading;
 
 public class CyberCalculator {
 	public static void Main(String[] args) {
 
 		Console.WriteLine(" ");
+		Console.WriteLine("<SYSYEM REBOOTING>");
+		System.Threading.Thread.Sleep(2000);
+		Console.WriteLine("[###             ]");
+		System.Threading.Thread.Sleep(1000);
+		Console.WriteLine("[#######         ]");
+		System.Threading.Thread.Sleep(1000);
+		Console.WriteLine("[################]");
+		System.Threading.Thread.Sleep(1000);
+		Console.WriteLine("<REBOOTING SUCCESSFUL>");
+		System.Threading.Thread.Sleep(1000);
+		Console.WriteLine(" ");
 		Console.WriteLine("Johnny: Wake the fuck up samurai. We've got a city to burn.");
+		System.Threading.Thread.Sleep(4000);
 		Console.WriteLine(" ");
 		Console.WriteLine(" ####   ####  ##      ####  ##  ## ##      ####  ######  ####  #####");
 		Console.WriteLine("##  ## ##  ## ##     ##  ## ##  ## ##     ##  ##   ##   ##  ## ##  ##");
