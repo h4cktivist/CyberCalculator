@@ -1,5 +1,13 @@
 import time
 
+def loading():
+	animation = ['|', '/', '-', '\\']
+	for i in range (6):
+		print ("CYBERCALCULATOR STARTING: ", i * 20, "%", animation[i % 4], end='')
+		print ('\r', end='')
+		time.sleep(1)
+	print (" ")
+
 print (" ")
 print ("<SYSYEM REBOOTING>")
 time.sleep(2)
@@ -15,9 +23,9 @@ print (" ")
 print ("Johnny: Wake the fuck up samurai. We've got a city to burn.")
 print (" ")
 time.sleep(4)
-print ("Cyber-Calculator starting...")
-time.sleep(1)
-print ("10%...50%...70%...100%.")
+
+loading()
+
 time.sleep(1)
 print (" ")
 print (" ####   ####  ##      ####  ##  ## ##      ####  ######  ####  #####")
